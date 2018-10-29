@@ -10,7 +10,7 @@ using namespace std;
 // Globals
 double timeouts_thresh = 0;
 unsigned int num_timeouts = 0;
-double the_window_size = 1.0;
+double the_window_size = 13.0;
 bool slow_start = true;
 double ALPHA = 1.15;
 double BETA = 0.5;
