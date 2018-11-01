@@ -74,8 +74,8 @@ void Controller::ack_received( const uint64_t sequence_number_acked,
 
     if (the_window_size < 1) 
         the_window_size = 1; // 
-    else if (the_window_size > 75){
-        the_window_size = 75; // 
+    else if (the_window_size > 70){
+        the_window_size = 70; // 
 	}
   if ( debug_ ) {
     cerr << "At time " << timestamp_ack_received

@@ -5,13 +5,11 @@
 
 using namespace std;
 
-
-
 /* AIMD constants to be used to*/
 
-const unsigned int ALPHA = 1; //Additive-Increase
-const float BETA = .5; //Multiplicative-Decrease
-float the_window_size = 1;
+const unsigned int ALPHA = 1.25; //Additive-Increase
+const float BETA = 0.75; //Multiplicative-Decrease
+float the_window_size = 2;
 unsigned int rtt_threshold = 120;
 
 // End AIMD insertion
